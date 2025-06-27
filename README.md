@@ -138,4 +138,3 @@ Created as a portfolio project demonstrating full-stack development skills.
 
 ---
 
-**Note**: This is a production-ready application suitable for resume projects and portfolio demonstrations. 
