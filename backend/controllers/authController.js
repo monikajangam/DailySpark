@@ -3,7 +3,16 @@ const Habit = require('../models/Habit');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
-const predefinedHabits = ['Exercise', 'Yoga', 'Reading', 'Studying', 'Sleeping'];
+const predefinedHabits = [
+  'Drink Water 2L',
+  'Workout',
+  'Meditation',
+  'Gardening',
+  'Watch Movie',
+  'Read Book',
+  'Cooking',
+  'Listen Music'
+];
 
 exports.registerUser = async (req, res) => {
   try {
