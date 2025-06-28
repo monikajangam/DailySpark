@@ -29,41 +29,7 @@ A modern, full-stack habit tracking application built with React, Node.js, and M
 - **bcrypt** - Password hashing
 - **CORS** - Cross-origin resource sharing
 
-## 📦 Installation
 
-### Prerequisites
-- Node.js (v16 or higher)
-- MongoDB (local or Atlas)
-- npm or yarn
-
-### Backend Setup
-```bash
-cd backend
-npm install
-```
-
-Create a `.env` file in the backend directory:
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/habittracker
-JWT_SECRET=your_jwt_secret_here
-```
-
-Start the backend server:
-```bash
-npm run dev
-```
-
-### Frontend Setup
-```bash
-cd frontend
-npm install
-```
-
-Start the frontend development server:
-```bash
-npm start
-```
 
 The application will be available at `http://localhost:3000`
 
@@ -108,33 +74,6 @@ HabitTracker/
 4. **Monitor Progress**: View streaks and completion percentages
 5. **Analyze Data**: Check charts for monthly progress
 
-## 🚀 Deployment
-
-### Backend Deployment
-- Deploy to platforms like Heroku, Railway, or DigitalOcean
-- Set environment variables for production
-- Use MongoDB Atlas for database
-
-### Frontend Deployment
-- Build the application: `npm run build`
-- Deploy to Netlify, Vercel, or similar platforms
-- Update API base URL for production
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👨‍💻 Author
-
-Created as a portfolio project demonstrating full-stack development skills.
 
 ---
 
