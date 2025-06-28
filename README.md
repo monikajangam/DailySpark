@@ -1,4 +1,4 @@
-# Habit Tracker - Full Stack Application
+# Daily Spark - Full Stack Application
 
 A modern, full-stack habit tracking application built with React, Node.js, and MongoDB. Track your daily habits, monitor streaks, and visualize your progress with interactive charts.
 
