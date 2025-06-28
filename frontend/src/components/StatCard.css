@@ -1,0 +1,41 @@
+.stat-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 1px 6px rgba(127, 83, 172, 0.06);
+  padding: 1rem 1.5rem;
+  min-width: 180px;
+  margin: 0.5rem 0;
+  transition: background 0.2s;
+}
+.stat-card.completed {
+  background: #e0f7e9;
+}
+.stat-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.stat-info {
+  flex: 1;
+}
+.stat-label {
+  font-size: 1rem;
+  color: #7f53ac;
+  font-weight: 600;
+}
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #4b2067;
+}
+.stat-status {
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
+.stat-status.completed {
+  color: #388e3c;
+}
+.stat-status.pending {
+  color: #d32f2f;
+} 

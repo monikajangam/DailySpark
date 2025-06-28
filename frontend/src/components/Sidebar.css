@@ -1,0 +1,49 @@
+.sidebar {
+  width: 240px;
+  background: #f7f9fa;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-right: 1px solid #e0e0e0;
+  min-height: 100vh;
+}
+.sidebar-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.avatar {
+  width: 48px;
+  height: 48px;
+  background: #b2dfdb;
+  border-radius: 50%;
+}
+.user-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.sidebar-date {
+  color: #888;
+  font-size: 0.95rem;
+}
+.sidebar-calendar {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  text-align: center;
+}
+.calendar-placeholder {
+  color: #bbb;
+  font-size: 0.95rem;
+}
+.sidebar-due-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.sidebar-due-item {
+  font-size: 0.98rem;
+  color: #1976d2;
+  margin-bottom: 0.25rem;
+} 

@@ -1,0 +1,46 @@
+.today-tasks-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 16px rgba(127, 83, 172, 0.08);
+  padding: 1.5rem 2rem;
+  min-width: 320px;
+  max-width: 90vw;
+  margin-bottom: 2rem;
+}
+.today-tasks-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7f53ac;
+  margin-bottom: 1rem;
+}
+.today-tasks-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.today-tasks-list li {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem 0.8rem;
+  transition: background 0.2s;
+}
+.today-tasks-list li.done {
+  background: #f3e9fa;
+  text-decoration: line-through;
+  color: #b39ddb;
+}
+.task-icon {
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+}
+.task-label {
+  flex: 1;
+}
+.today-tasks-list input[type="checkbox"] {
+  accent-color: #7f53ac;
+  width: 1.1rem;
+  height: 1.1rem;
+} 

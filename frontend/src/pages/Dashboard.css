@@ -1,0 +1,228 @@
+.dashboard-bg {
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard-overlay {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, rgba(161,140,209,0.85) 0%, rgba(251,194,235,0.85) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dashboard-topbar {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem 1rem 2rem;
+}
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4b2067;
+  font-family: 'Nunito', 'Quicksand', 'Poppins', sans-serif;
+}
+.dashboard-logout {
+  background: #fff;
+  color: #7f53ac;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(127, 83, 172, 0.10);
+  transition: background 0.2s, color 0.2s;
+}
+.dashboard-logout:hover {
+  background: #7f53ac;
+  color: #fff;
+}
+.dashboard-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.dashboard-calendar-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 16px rgba(127, 83, 172, 0.08);
+  padding: 1.5rem 2rem;
+  min-width: 320px;
+  max-width: 90vw;
+  margin-bottom: 1rem;
+}
+.calendar-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7f53ac;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.calendar-days {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.calendar-day {
+  width: 2.2rem;
+  height: 2.2rem;
+  border: none;
+  border-radius: 50%;
+  background: #f3e9fa;
+  color: #7f53ac;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.calendar-day.today {
+  border: 2px solid #7f53ac;
+  font-weight: bold;
+}
+.calendar-day.selected {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #fff;
+}
+.calendar-day:hover {
+  background: #e0c3fc;
+  color: #4b2067;
+}
+.dashboard-habits-section {
+  width: 100%;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 16px rgba(127, 83, 172, 0.08);
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
+}
+.habits-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7f53ac;
+  margin-bottom: 1rem;
+}
+.habits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+}
+.habit-card {
+  display: flex;
+  align-items: center;
+  background: #f3e9fa;
+  border-radius: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  min-width: 180px;
+  box-shadow: 0 1px 6px rgba(127, 83, 172, 0.06);
+  transition: background 0.2s;
+}
+.habit-card.done {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: #fff;
+  text-decoration: line-through;
+}
+.habit-icon {
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+}
+.habit-label {
+  flex: 1;
+}
+.habit-card input[type="checkbox"] {
+  accent-color: #7f53ac;
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.dashboard-tracker-section {
+  width: 100%;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 16px rgba(127, 83, 172, 0.08);
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
+}
+.tracker-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7f53ac;
+  margin-bottom: 1rem;
+}
+.tracker-bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.2rem;
+  height: 120px;
+  justify-content: center;
+}
+.tracker-bar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tracker-bar {
+  width: 22px;
+  border-radius: 1rem 1rem 0 0;
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  margin-bottom: 0.3rem;
+  transition: height 0.3s;
+}
+.tracker-label {
+  font-size: 0.95rem;
+  color: #7f53ac;
+  margin-top: 0.2rem;
+}
+.calendar-grid {
+  margin-top: 0.5rem;
+}
+.calendar-weekdays {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.calendar-weekday {
+  width: 2.2rem;
+  text-align: center;
+  color: #b39ddb;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.calendar-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.dashboard-goal-section {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dashboard-stat-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+} 

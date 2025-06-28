@@ -1,0 +1,28 @@
+.circular-progress-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  margin: 0.5rem;
+}
+.circular-progress-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.circular-progress-value {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #4b2067;
+  display: block;
+}
+.circular-progress-text {
+  font-size: 0.9rem;
+  color: #7f53ac;
+  font-family: 'Nunito', 'Quicksand', 'Poppins', sans-serif;
+} 
